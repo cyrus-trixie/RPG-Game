@@ -20,7 +20,7 @@ body {
     height: 150px;
     background-color: #ffffff;
     color: #ffffff;
-    margin: 200px auto 0px;
+    margin: 30px auto 0px;
     padding: 10px;
   }
   
@@ -51,4 +51,12 @@ body {
     border: 3px solid #feac32;
   }
 
+  /* Media Query for Tablets and Small Screens */
+@media (max-width: 768px) {
+  #game {
+      width: 80vw; /* Adjust width to fit smaller screens */
+      height: auto; /* Allow height to adjust based on content */
+      max-height: 200px; /* Limit maximum height to fit within the viewport */
+  }
+}
   
