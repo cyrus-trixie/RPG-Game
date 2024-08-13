@@ -1,28 +1,29 @@
 body {
     background-color: #0a0a23;
     background-image: url(/best-dragon-games-1.jpg);
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   #text {
     background-color: #0a0a23;
     color: #ffffff;
     padding: 10px;
+    font-size: 26px;
   }
-  
-  #game { 
-    
-    width: 500px;
-    height: 150px;
+  #game {
     background-color: #ffffff;
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
+    width: 700px;
   }
+  
   
   #controls,
   #stats {
@@ -50,13 +51,3 @@ body {
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
   }
-
-  /* Media Query for Tablets and Small Screens */
-@media (max-width: 768px) {
-  #game {
-      width: 80vw; /* Adjust width to fit smaller screens */
-      height: auto; /* Allow height to adjust based on content */
-      max-height: 200px; /* Limit maximum height to fit within the viewport */
-  }
-}
-  
